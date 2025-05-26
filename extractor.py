@@ -116,8 +116,6 @@ def video_to_frame() -> str:
         to_grayscale = input("Convert extracted frames to grayscale? (y/n) -> ").lower()
         assert to_grayscale in ["y", "n"], "please select one of two options y (yes) or n (no)"
         to_grayscale = True if to_grayscale == "y" else False
-        print(to_grayscale)
-
 
         overwrite = input("overwrite files if already exists? (y/n) -> ").lower()
         assert overwrite in ["y", "n"], "please select one of two options y (yes) or n (no)"
