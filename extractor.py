@@ -2,7 +2,6 @@ from numpy import ndarray, uint8, stack, random
 from cv2 import VideoCapture, imwrite, GaussianBlur, cvtColor, COLOR_BGR2GRAY, add
 from os import path, makedirs
 
-
 def add_gaussian_noise(image: ndarray, intensity=1) -> ndarray:
         '''
         Adds Gaussian noise to an image.
@@ -73,6 +72,7 @@ def extract_frames(video_path: str, frames_dir: str, add_noise: bool, grayscale:
         saved_count = 0  # initialize number of frames saved
         cur_frame = 0  # initialize the index of frame
 
+
         while True:
                 ret, frame = capture.read()  # ret returns a bool. If True, the frame exists, False otherwise. Frame returns the actual frame data
                 if not ret:
@@ -84,7 +84,8 @@ def extract_frames(video_path: str, frames_dir: str, add_noise: bool, grayscale:
 
                 if add_noise:
                         frame = add_gaussian_noise(frame, intensity=intensity)  # add gausian noise to frame
-                
+
+
                 save_path = path.join(frames_dir, video_filename, "{:010d}.jpg".format(cur_frame))  # creates path to save the frame
 
                 if not path.exists(save_path) or overwrite:  # saves the frame on path.
