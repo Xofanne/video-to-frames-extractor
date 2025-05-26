@@ -4,7 +4,7 @@ Just put the main.py file in any folder you want and run it with "python main.py
 
 You must have numpy and opencv-python installed.
 
-The arguments:
+### The arguments:
 
 video path -> absolute path of the video file or just the name if the video is in the same folder as the extractor.py.
 
