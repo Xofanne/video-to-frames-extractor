@@ -12,7 +12,7 @@ place the extractor.py file in any folder you want and run it with `python extra
 
 # If you prefer to use the executable
 
-Download the exe file from [Release]() and place it anywhere you want.
+Download the exe file from [Release](https://github.com/Xofanne/video-to-frames-extractor/releases/tag/v1.0test) and place it anywhere you want.
 run it and a terminal window will open to feed the arguments.
 
 # The arguments:
