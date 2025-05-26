@@ -4,7 +4,7 @@ Just put the main.py file in any folder you want and run it with "python main.py
 
 You must have numpy and opencv-python installed.
 
-### The arguments:
+## The arguments:
 
 video path -> absolute path of the video file or just the name if the video is in the same folder as the extractor.py.
 
@@ -12,6 +12,11 @@ dir name to extract the frames -> absolute path of the folder to extract the fra
 
 the other ones are very auto explicative.
 
+
+## The executable:
+
+you can alternatively download the exe file and follow the instructions there if you don't have or don't want to have
+python / the libraries installed.
 
 # For reference
 
