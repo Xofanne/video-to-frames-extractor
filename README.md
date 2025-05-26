@@ -2,7 +2,7 @@
 
 Just put the main.py file in any folder you want and run it with "python main.py" or "python3 main.py".
 
-You must have numpy and opencv-python installed.
+You must have the numpy and opencv-python libraries installed if you run the .py file.
 
 ## The arguments:
 
